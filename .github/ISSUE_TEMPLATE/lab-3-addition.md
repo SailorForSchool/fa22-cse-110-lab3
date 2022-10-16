@@ -1,5 +1,5 @@
 ---
-name: CSS Addition
+name: Lab 3 Addition
 about: Add a CSS attribute to the repository
 title: ''
 labels: ''
