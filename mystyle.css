@@ -32,10 +32,6 @@ h3.section-title {
     margin: 2px 10px 2px 10px
 }
 
-#attendance {
-    padding: 5px 10px 5px 10px
-}
-
 details {
     padding-top: .5cm;
     padding-bottom: .5cm;
@@ -44,17 +40,55 @@ details {
 }
 
 #meeting-notes {
+    display: flex;
+    justify-content: center;
     margin: auto;
-    max-width: 9in;
-    min-width: 6in;
+    max-width: 15in;
+    min-width: 5in;
     border-style: dotted;
     border-color:rgb(216, 112, 199);
     border-width: 5px;
     border-radius: 30px;
 }
 
-#meeting-notes section{
+#meeting-notes section {
     text-align: center;
+}
+
+#attendance {
+    padding: 5px 10px 5px 10px
+}
+
+#brand-direction {
+    flex-grow: 1;
+}
+
+#color-story {
+    flex-grow: 1;
+}
+
+#q-and-concerns {
+    flex-grow: 1;
+    flex-shrink: 3;
+}
+
+/* creating a color grid */
+.grid ~ details {
+    display: grid;
+    width: 50vw;
+    height: 50vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    width: 120px;
+    height: 120px
+}
+
+details {
+    float: left;
+    width: 50%;
+    border: 1px solid ;
+    box-sizing: border-box;
 }
 
 /* Adding some emphasis */
@@ -69,6 +103,7 @@ details > summary {
 /* Making sure feedback form looks good */
 #feedback + div {
     background-color: rgb(255, 192, 247);
+    display: inline-block;
 }
 
 /* Define the color behavior for the submit button */
@@ -84,4 +119,22 @@ button:hover {
 
 button:active {
     color: hsl(330, 100%, 56%);
+}
+
+/* Remove contact from page */
+#contact {
+    display: none;
+}
+
+/* Add some screen size modifications */
+@media (max-width:700px){
+    .section-title ~ p{
+        text-align:left;
+    }
+
+}
+@media (min-width:1000px){
+    .section-title ~ p{
+    margin-right:100px;
+    }
 }
