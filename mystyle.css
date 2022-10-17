@@ -1,8 +1,20 @@
 @font-face {
     font-family: "BebasNeue";
     src: url("fonts/BebasNeue-Regular.ttf");
-  }
+}
 
+/* Change title fonts */
 .section-title {
     font-family: "BebasNeue";
+}
+
+/* Define the color behavior for the submit button */
+button {
+    background-color: pink
+}
+button:hover {
+    color: violet;
+}
+button:active {
+    color: red;
 }
