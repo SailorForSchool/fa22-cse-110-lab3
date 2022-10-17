@@ -8,6 +8,11 @@
     font-family: "BebasNeue";
 }
 
+#title {
+    position: fixed;
+    right: 0;
+}
+
 /* Change color of the text */
 h2,
 h3,
@@ -85,6 +90,7 @@ details {
 }
 
 details {
+    position: relative;
     float: left;
     width: 50%;
     border: 1px solid ;
