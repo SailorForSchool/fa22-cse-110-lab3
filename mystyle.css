@@ -8,13 +8,23 @@
     font-family: "BebasNeue";
 }
 
+/* Change color of the text */
+h2,
+h3,
+p {
+    color: #FF69B4;
+}
+* {
+    color:hsl(313, 92%, 66%);
+}
+
 /* Define the color behavior for the submit button */
 button {
-    background-color: pink
+    background-color: pink;
 }
 button:hover {
     color: violet;
 }
 button:active {
-    color: red;
+    color: hsl(330, 100%, 56%);
 }
