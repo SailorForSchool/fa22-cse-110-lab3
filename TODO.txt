@@ -1,12 +1,6 @@
 
-ID Selector (#id)
-Universal Selector (*)
-Attribute Selector (e.g. [attribute=foo])
-Selector List (element, element)                   /* select multiple elements */
 
 Combinators (you must use one of each)    /* specify selections based on element positioning in the DOM tree */
     Descendant Combinator (element element)
-    Child Combinator (element > element)
     General sibling combinator (element ~ element)
     Adjacent sibling combinator (element + element)
-    Combining Two Selectors (element.class)
