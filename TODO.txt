@@ -1,9 +1,7 @@
 
 ID Selector (#id)
 Universal Selector (*)
-Element Selector (element) 
-Attribute Selector (e.g. [attribute=foo])     
-Pseudo-class Selector (e.g. p:hover)
+Attribute Selector (e.g. [attribute=foo])
 Selector List (element, element)                   /* select multiple elements */
 
 Combinators (you must use one of each)    /* specify selections based on element positioning in the DOM tree */
