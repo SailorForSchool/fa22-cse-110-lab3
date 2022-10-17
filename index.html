@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta name="author" content="Sailor Eichhorn">
+    <meta charset="utf-8">
+    <title>Brand Notes</title>
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+  </head>
+
+  <body>
+    <header>
+        <h1>Barbie Branding</h1>
+        <h4>
+            Branding Meeting
+            <br>
+            October 8, 2022
+        </h4>
+        <img src="imgs/barbie_working.jpg" alt="barbie at work" width=500 />
+        
+        <nav>
+            <h4>
+                Metting Minutes Directory
+            </h4>
+            <ul>
+                <li><a href=#agenda>Agenda</a></li>
+                <li><a href=#notes>Meeting Notes</a></li>
+                <li><a href=#actionitems>Action Items</a></li>
+                <li><a href=#feedback>Team Feedback</a></li>
+            </ul>
+        </nav>
+    </header>    
+    <main>
+
+        <hr>
+
+        <h2 id="agenda">Agenda</h2>
+        <div>
+            <ol>
+                <li>Discuss the direction of the brand
+                    <ul>
+                        <li>Compile some brand relevant inspiration</li>
+                        <li>Discuss main features of the brand</li>
+                    </ul>
+                </li>
+                <li>Discuss brand <b>color story</b> created at the last meeting
+                    <ul>
+                        <li>What colors represent us and how we should use them</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <h2 id="notes">Meeting Notes</h2>
+        <div>
+            Attendance:
+            <ul>
+                <li>Sailor Eichhorn</li>
+                <li>Ruth Handler</li>
+                <li>Ynon Kreiz</li>
+            </ul>
+        
+            <section>
+                <h3>Brand Direction</h3>
+                <p>
+                    We should include more <em>audio</em> and <em>visual</em> elements to help support the brand idea.
+                    <br> Possible inspiration could be this audio clip for the apearance of our logo:
+                    <br>
+                    <audio controls>
+                        <source src="audio_video/twinkle.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </p>
+                <p>
+                    Additionally, we can include <em>cute visuals</em> that push our brand themes: <b>girlie</b> vibes and bright colors.
+                    <br>
+                    <video width="320" height="240" controls>
+                        <source src="audio_video/butterfly.mp4" type="video/mp4">
+                        Your browser does not support the video element.
+                    </video>
+                    <br>
+                    This animation was suggested to create more contrast to our cite.
+                </p>
+            </section>
+        
+            <section>
+                <h3>Color Story</h3>
+                <p>Using a variety of shades of pink keeps are branding consistent. Each color has its own
+                    <br>
+                    unique message to our customers:
+                <details>
+                    <summary>Baby Pink</summary>
+                    <p>This shade is for <span>childrens toys and sleepwear</span>.</p>
+                    <img src="imgs/baby.png" alt="baby pink" width=200 />
+                </details>
+                <details>
+                    <summary>Hot Pink</summary>
+                    <p>This shade is for high energy <span>marketing</span>.</p>
+                    <img src="imgs/hot.png" alt="hot pink" width=200 />
+                </details>
+                <details>
+                    <summary>Rose Pink</summary>
+                    <p>This shade is for <span>PR releases</span> and scandals.</p>
+                    <img src="imgs/rose.png" alt="rose pink" width=200 />
+                </details>
+                <details>
+                    <summary>Salmon Pink</summary>
+                    <p>This shade must be avoided. Barbie <strong>DOES NOT</strong> wear salmon pink.</p>
+                    <img src="imgs/salmon.png" alt="salmon pink" width=200 />
+                </details>
+            </section>
+            
+            <section>
+                <h3>Concerns and Questions</h3>
+                <p>It was mentioned that using too much pink can be alienating to people who prefer blue.
+                    <br>
+                    As a result, should we investigate teal? To be discussed next meeting.
+                </p>
+                <p>How can we pink a pink with enought orange in it that it will match to themes
+                    <br> for easter 2022? All current options are opposed by those present at this
+                    <br> meeting.
+                </p>
+            </section>
+        </div>
+
+        <h2 id="actionitems">Action Items</h2>
+        <div>
+            <ol>
+                <li><input type="checkbox"> Create a schedule for website changes </li>
+                <li><input type="checkbox"> Check color meanings against current use in products </li>
+                <li><input type="checkbox"> <strong>Remove salmon pink from marketing</strong></li>
+                <li><input type="checkbox"> Add audio to logo graphic </li>
+            </ol>
+        </div>
+
+        <hr>
+
+        <h2 id="feedback">Team Feedback</h2>
+        <div>
+            <form>
+                <fieldset>
+                    <legend>Feedback Form:</legend>
+                    <label>Name: </label>
+                    <input type="text">
+                    
+                    <br><br>
+                    
+                    <label>Position: </label>
+                    <p><input type="radio"> Manager </p>
+                    <p><input type="radio"> Developer</p>
+                    <p><input type="radio"> Disgrustled Employee </p>
+                    
+                    <br>
+                    
+                    <label>Date of Feedback:</label>
+                    <input type="date">
+                    
+                    <br><br>
+                    
+                    <label>Define your feedback type:</label>
+                    <input list="type">
+                    <datalist id="type">
+                        <option value="complaint">
+                        <option value="praise">
+                    </datalist>
+
+                    <br><br>
+
+                    <label>Choose note section:</label>
+                    <select>
+                        <option value="agenda">Agenda</option>
+                        <option value="notes">Notes</option>
+                        <option value="actions">Action Items</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+                    
+                    <br><br>
+                    
+                    <textarea name="Meeting Feedback" rows="6" cols="100">Please discuss your feedback here.</textarea>
+
+                    <br><br>
+
+                    <button type="button">Send to nowhere!</button>
+
+                </fieldset>
+            </form>
+        </div>
+      </main>
+
+      <footer>
+        <h5 id="contact">
+            <i>Notes taken by Sailor Eichhorn</i>
+            <br> Contact at: <a href="mailto:hege@example.com"> meichhorn@ucsd.edu</a>
+        </h5>
+      </footer>
+  </body>
+</html>
