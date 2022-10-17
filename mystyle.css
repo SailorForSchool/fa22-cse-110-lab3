@@ -46,8 +46,9 @@ details {
 #meeting-notes {
     margin: auto;
     max-width: 9in;
+    min-width: 6in;
     border-style: dotted;
-    border-color:palevioletred;
+    border-color:rgb(216, 112, 199);
     border-width: 5px;
     border-radius: 30px;
 }
@@ -65,9 +66,16 @@ details > summary {
     text-decoration: line-through;
 }
 
+/* Making sure feedback form looks good */
+#feedback + div {
+    background-color: rgb(255, 192, 247);
+}
+
 /* Define the color behavior for the submit button */
 button {
-    background-color: pink;
+    width: 1in;
+    height: .5in;
+    background-color: rgb(250, 158, 238);
 }
 
 button:hover {

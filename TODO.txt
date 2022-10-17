@@ -3,4 +3,3 @@
 Combinators (you must use one of each)    /* specify selections based on element positioning in the DOM tree */
     Descendant Combinator (element element)
     General sibling combinator (element ~ element)
-    Adjacent sibling combinator (element + element)
